@@ -20,12 +20,12 @@
 > - 下载命令：
 >     - 本地下载命令
 >         ```bash
->         cd /Users/enzo/Documents/code
+>         cd ~/Documents/code
 >         git clone <官方 GitHub 仓库地址>
 >         ```
 >     - 远程下载命令
 >         ```bash
->         cd /home/enzo/Documents/code
+>         cd ~/Documents/code
 >         git clone <官方 GitHub 仓库地址>
 >         ```
 > - 任务类型：
@@ -65,4 +65,6 @@ cp -R skills/enzo-paper-info ~/.codex/skills/
       SKILL.md
 ```
 
-注意：需要重启 Codex，才能发现 `enzo-paper-info` Skill。
+注意：
+- 需要重启 Codex，才能发现 `enzo-paper-info` Skill
+- 将示例中的「本地路径」和「远程路径」替换为你自己的代码存放路径

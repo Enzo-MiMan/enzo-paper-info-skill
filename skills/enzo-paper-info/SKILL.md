@@ -55,12 +55,12 @@ Use this skill when the user provides a paper title, paper URL, or method name a
 - 下载命令：
     - 本地下载命令
         ```bash
-        cd /Users/enzo/Documents/code
+        cd ~/Documents/code
         git clone <official GitHub URL>
         ```
     - 远程下载命令
         ```bash
-        cd /home/enzo/Documents/code
+        cd ~/Documents/code
         git clone <official GitHub URL>
         ```
 - 任务类型：
@@ -71,8 +71,8 @@ Use this skill when the user provides a paper title, paper URL, or method name a
 4. The download command must be a `git clone` command using the official GitHub URL when a GitHub repository is found.
    - Always label the two command blocks as "本地下载命令" and "远程下载命令".
    - Put each command block inside a fenced `bash` code block under its label.
-   - For the local command, use `cd /Users/enzo/Documents/code`.
-   - For the remote command, use `cd /home/enzo/Documents/code`.
+   - For the local command, use `cd ~/Documents/code`.
+   - For the remote command, use `cd ~/Documents/code`.
    - If no GitHub repository is found, write `- 下载命令：无`.
 
 ## Do Not
