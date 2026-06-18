@@ -4,13 +4,13 @@
 
 ## 1、功能说明
 
-`enzo-paper-info` 是一个用于查询深度学习 / CV 领域论文或方法基础信息的 Codex Skill。
+`enzo-paper-info` 是一个用于查询机器学习/深度学习领域相关论文或方法基础信息的 Codex Skill。
 
 <br>
 
 > 用户仅需在 Codex 对话中提供：论文标题 / 方法名 / 论文链接 / GitHub 地址  
 > `enzo-paper-info` 会按如下固定字段返回该论文或方法的基本信息：
-> ```markdown
+> ~~~markdown
 > - 论文名称：
 > - 论文地址：
 > - 发布时间：
@@ -31,7 +31,7 @@
 > - 任务类型：
 > - 方法类型：
 > - 一句话描述：
-> ```
+> ~~~
 
 <br>
 
@@ -42,29 +42,35 @@
 
 ## 2、安装
 
-下载本仓库后，将其中的子文件夹 `skills/enzo-paper-info` 放到你的 Codex Skills 目录。一般 Codex Skills 目录为：`~/.codex/skills`。
+下载本仓库后，请将其中的子文件夹 `skills/enzo-paper-info` 复制到你的 Codex Skills 目录中。一般 Codex Skills 路径为：`~/.codex/skills`。
 
 ```bash
 # 下载本仓库
-git clone https://github.com/Enzo-MiMan/enzo-paper-info.git
+git clone https://github.com/Enzo-MiMan/enzo-paper-info-skill.git
 
-# 如果你本地还没有 ~/.codex/skills，请先创建一个
+# 如果你本地还没有用于存放 skills 的文件夹 ~/.codex/skills，请先创建一个
 mkdir -p ~/.codex/skills
 
 # 将 skills/enzo-paper-info 复制到你的 Codex Skills 目录下
-cd enzo-paper-info
-cp -R skills/enzo-paper-info ~/.codex/skills/
+cd enzo-paper-info-skill
+cp -r skills/enzo-paper-info ~/.codex/skills/
 ```
+<br>
 
-目标目录结构为：
+目标文件结构为：
 
 ```text
-.codex/
-  skills/
-    enzo-paper-info/
-      SKILL.md
+~/.codex/
+├── skills/
+│   ├── enzo-paper-info/     # 放在这里
+│   │   └── SKILL.md
+│   └── other-skill/
+│       └── SKILL.md
+└── ...
 ```
 
-注意：
+<br>
+注意：  
+
 - 需要重启 Codex，才能发现 `enzo-paper-info` Skill
-- 将示例中的「本地路径」和「远程路径」替换为你自己的代码存放路径
+- 将示例中的代码存放路径替换为你自己的路径
