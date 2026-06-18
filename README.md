@@ -73,4 +73,4 @@ cp -r skills/enzo-paper-info ~/.codex/skills/
 注意：  
 
 - 需要重启 Codex，才能发现 `enzo-paper-info` Skill
-- 将示例中的代码存放路径替换为你自己的路径
+- 将 skill.md 中的代码存放路径替换为你自己的路径
