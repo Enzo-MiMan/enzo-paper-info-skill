@@ -1,0 +1,6 @@
+interface:
+  display_name: "Enzo Paper Info"
+  short_description: "获取论文基本信息"
+  default_prompt: "使用 $enzo-paper-info, 输入论文标题、方法名、论文链接或 GitHub 地址，返回固定格式的论文基本信息。"
+policy:
+  allow_implicit_invocation: true

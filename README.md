@@ -1,10 +1,12 @@
 # enzo-paper-info
 
-这是一个 Codex Skill 的教程示例。
+这是一个 Codex Skill 的教程示例。  
+
+讲解视频 ：https://www.bilibili.com/video/BV1e17g6PEEk/
 
 ## 1、功能说明
 
-`enzo-paper-info` 是一个用于查询机器学习/深度学习领域相关论文或方法基础信息的 Codex Skill。
+`enzo-paper-info` 是一个用于查询机器学习/深度学习领域相关论文或方法基础信息的 Codex Skill  
 
 <br>
 
@@ -74,3 +76,4 @@ cp -r skills/enzo-paper-info ~/.codex/skills/
 
 - 需要重启 Codex，才能发现 `enzo-paper-info` Skill
 - 将 skill.md 中的代码存放路径替换为你自己的路径
+- 在 openai.yaml 文件中，通过修改 display_name 来修改 skill 在 codex 中的名称显示
