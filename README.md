@@ -64,8 +64,10 @@ cp -r skills/enzo-paper-info ~/.codex/skills/
 ```text
 ~/.codex/
 ├── skills/
-│   ├── enzo-paper-info/     # 放在这里
-│   │   └── SKILL.md
+│   ├── enzo-paper-info/          # 放在这里
+│   │   ├── SKILL.md
+│   │   └── agents/
+│   │       └── openai.yaml
 │   └── other-skill/
 │       └── SKILL.md
 └── ...
